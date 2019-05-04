@@ -1,6 +1,8 @@
-exports.handler = function (event, context, callback) {
-    callback(null, {
+const { nappi } = process.env;
+
+exports.handler = async (event, context) => {
+    return {
         statusCode: 200,
-        body: "Hello, World"
-    });
-}
+        body: nappi
+    };
+};
