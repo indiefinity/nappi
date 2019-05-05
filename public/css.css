@@ -14,4 +14,9 @@ div {
 .b1 {
     font-family: ubuntu;
 }
+.gameid-box {
+    font-family: ubuntu;
+    background: transparent;
+    max-height: 49px;
+}
 
