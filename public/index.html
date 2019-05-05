@@ -9,18 +9,18 @@
 
 <body>
 
-        <h1 style="color: red">VAROITUS! TESTIKÄYTÖSSÄ. </h1>
+        <h1 style="color: red">VAROITUS! TESTIKÄYTÖSSÄ. EI TOIMINNASSA!! </h1>
 
     <div id="b1" style="display: block;">
         <h3>Liity peliin:</h3>
         <input type="text"id="gameid-box" placeholder="game-id"></input>
-        <input type="image" onclick="login()" src="./napit/liity.png"/>
-        <br> <input onclick="error()" type="image" src="./napit/luo.png"/>
+        <input type="image" class="napi" onclick="login()" src="./napit/liity.png"/>
+        <br> <input onclick="error()" class="napi" type="image" src="./napit/luo.png"/>
     </div>
 
     <div id="b2" style="display: none">
         <p>b2</p>
-        <button onclick="login2()">vaiha</button>
+        <button class="button" onclick="login2()">vaiha</button>
     </div>
 
 </body>
