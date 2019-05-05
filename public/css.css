@@ -1,14 +1,17 @@
 html,
 html {
-    font-family: pacifico;
+    font-family: ubuntu;
 }
 h2 {
-    font-family: pacifico;
+    font-family: ubuntu;
 }
-#output {
-    border:1px solid black;
+div {
+    font-family: ubuntu;
 }
-#buttons {
-    border:2px solid black;
-    max-width:10%;
+.b2 {
+    font-family: ubuntu;
 }
+.b1 {
+    font-family: ubuntu;
+}
+
