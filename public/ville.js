@@ -1,1 +1,1 @@
-console.log("villen koodista :O")
+console.log("start")
