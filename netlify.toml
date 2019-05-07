@@ -1,0 +1,2 @@
+[template.environment]
+  FAUNADB_SERVER_SECRET = "fnADNzVz72ACDDk6Jyo717AsfmeRoFqLbFMZving"
