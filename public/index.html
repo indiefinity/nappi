@@ -1,12 +1,15 @@
 <html>
 <input type="button" onclick="nappi()"/>
+<div id="aws" style="display: none">
+<a href="/.netlify/functions/nappula" id="nappula"></a>
+</div>
 <script>
     console.log("uus")
-function get(w) {
-    return process.env.nappi
+function get() {
+    document.getElementById("nappula").click
 }
 function nappi() {
-    alert(get("nappi"))
+    alert(get())
 }
 </script>
 </html>
