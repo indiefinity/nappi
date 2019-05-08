@@ -3,11 +3,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
-    require('dotenv').config()
+    alert(process.env)
 });
 console.log("lil")
 function get() {
-    return process.env.nappula
+    return 1;
 }
 function nappi() {
     alert(get())
