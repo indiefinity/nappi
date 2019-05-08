@@ -9,3 +9,4 @@ module.exports = {
     __dirname: true,
   }
 }
+const nappula = process.env.nappi
